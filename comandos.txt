@@ -1,0 +1,12 @@
+enable 
+
+show running-config
+configure terminal
+line con 0 
+loggin sync
+
+no ip domain lookup
+hostname nombre_host
+interface g0/0/0
+ip address -ip- -mascara-
+no shutdown
